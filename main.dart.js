@@ -94857,7 +94857,7 @@ s=q}while(true)switch(s){case 0:q=3
 o=new A.EA("","",b,d,"",A.b([],t.s))
 l=t.N
 s=6
-return A.S(A.mR(A.d6("http://localhost:3000/signup",0,null),B.Y.kO(o.Ly()),A.ap(["Content-Type","application/json; charset=UTF-8"],l,l)),$async$xF)
+return A.S(A.mR(A.d6("https://talent-hive-backend.vercel.app/signup",0,null),B.Y.kO(o.Ly()),A.ap(["Content-Type","application/json; charset=UTF-8"],l,l)),$async$xF)
 case 6:n=f
 A.a0E(a,new A.a1I(b,a,n),n)
 q=1
@@ -94880,7 +94880,7 @@ var $async$BT=A.O(function(d,e){if(d===1){p=e
 s=q}while(true)switch(s){case 0:q=3
 m=t.N
 s=6
-return A.S(A.mR(A.d6("http://localhost:3000/login",0,null),B.Y.lT(A.ap(["email",b,"password",c],m,m),null),A.ap(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$BT)
+return A.S(A.mR(A.d6("https://talent-hive-backend.vercel.app/login",0,null),B.Y.lT(A.ap(["email",b,"password",c],m,m),null),A.ap(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$BT)
 case 6:o=e
 A.a0E(a,new A.a1G(o,a),o)
 q=1
@@ -94906,7 +94906,7 @@ return A.S(A.Qg(),$async$mu)
 case 6:o=a2
 n=A.cQ(o.a.i(0,"x-auth-token"))
 if(n==null||J.cy(n)===0)o.Tk("String","x-auth-token","")
-i=A.d6("http://localhost:3000/tokenIsValid",0,null)
+i=A.d6("https://talent-hive-backend.vercel.app/tokenIsValid",0,null)
 h=n
 h.toString
 g=t.N
@@ -94918,7 +94918,7 @@ l=B.Y.ik(A.fd(A.fb(h.e).c.a.i(0,"charset")).cf(h.w),null)
 s=J.c(l,!0)?8:9
 break
 case 8:s=10
-return A.S(A.a0B(A.d6("http://localhost:3000/",0,null),A.ap(["Content-Type","application/json; charset=UTF-8","x-auth-token",n],g,g)),$async$mu)
+return A.S(A.a0B(A.d6("https://talent-hive-backend.vercel.app/",0,null),A.ap(["Content-Type","application/json; charset=UTF-8","x-auth-token",n],g,g)),$async$mu)
 case 10:k=a2
 j=A.C9(a0,!1,t.nj)
 i=k!=null
@@ -94995,7 +94995,7 @@ auf(a,b,c,d,e,f,g,h,a0,a1){var s=0,r=A.N(t.H),q=1,p,o,n,m,l,k,j,i
 var $async$Cv=A.O(function(a2,a3){if(a2===1){p=a3
 s=q}while(true)switch(s){case 0:q=3
 o=new A.ja(null,a1,h,c,"www.example.com",g,f,d,a0,a,e)
-l=A.d6("http://localhost:3000/job/postJob",0,null)
+l=A.d6("https://talent-hive-backend.vercel.app/job/postJob",0,null)
 k=t.N
 k=A.ap(["Content-Type","application/json; charset=UTF-8"],k,k)
 s=6
@@ -95026,7 +95026,7 @@ s=p}while(true)switch(s){case 0:i=A.b([],t.hi)
 p=4
 k=t.N
 s=7
-return A.S(A.a0B(A.d6("http://localhost:3000/job/category/"+a,0,null),A.ap(["Content-Type","application/json; charset=UTF-8"],k,k)),$async$x8)
+return A.S(A.a0B(A.d6("https://talent-hive-backend.vercel.app/job/category/"+a,0,null),A.ap(["Content-Type","application/json; charset=UTF-8"],k,k)),$async$x8)
 case 7:n=c
 if(n.b===200){k=n
 m=B.Y.ik(A.fd(A.fb(k.e).c.a.i(0,"charset")).cf(k.w),null)
@@ -95054,7 +95054,7 @@ xy(a,b,c){return this.a1F(a,b,c)},
 a1F(a,b,c){var s=0,r=A.N(t.H),q=1,p,o,n,m,l,k,j,i
 var $async$xy=A.O(function(d,e){if(d===1){p=e
 s=q}while(true)switch(s){case 0:q=3
-m=A.d6("http://localhost:3000/job/setSkill",0,null)
+m=A.d6("https://talent-hive-backend.vercel.app/job/setSkill",0,null)
 l=t.N
 k=A.ap(["Content-Type","application/json; charset=UTF-8"],l,l)
 s=6
@@ -95081,7 +95081,7 @@ a0K(a){var s=0,r=A.N(t.T0),q,p=2,o,n,m,l,k,j,i,h,g,f
 var $async$xa=A.O(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:g=A.b([],t.hi)
 p=4
-k=A.d6("http://localhost:3000/job/featuredJob",0,null)
+k=A.d6("https://talent-hive-backend.vercel.app/job/featuredJob",0,null)
 j=t.N
 i=A.ap(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
@@ -95116,7 +95116,7 @@ s=p}while(true)switch(s){case 0:i=A.b([],t.hi)
 p=4
 k=t.N
 s=7
-return A.S(A.a0B(A.d6("http://localhost:3000/job/recentJob",0,null),A.ap(["Content-Type","application/json; charset=UTF-8"],k,k)),$async$xi)
+return A.S(A.a0B(A.d6("https://talent-hive-backend.vercel.app/job/recentJob",0,null),A.ap(["Content-Type","application/json; charset=UTF-8"],k,k)),$async$xi)
 case 7:n=b
 if(n.b===200){k=n
 m=B.Y.ik(A.fd(A.fb(k.e).c.a.i(0,"charset")).cf(k.w),null)
@@ -95145,7 +95145,7 @@ s=p}while(true)switch(s){case 0:i=A.b([],t.hi)
 p=4
 k=t.N
 s=7
-return A.S(A.a0B(A.d6("http://localhost:3000/job/searchJob/"+a,0,null),A.ap(["Content-Type","application/json; charset=UTF-8"],k,k)),$async$xo)
+return A.S(A.a0B(A.d6("https://talent-hive-backend.vercel.app/job/searchJob/"+a,0,null),A.ap(["Content-Type","application/json; charset=UTF-8"],k,k)),$async$xo)
 case 7:n=c
 if(n.b===200){k=n
 m=B.Y.ik(A.fd(A.fb(k.e).c.a.i(0,"charset")).cf(k.w),null)
@@ -95174,7 +95174,7 @@ s=p}while(true)switch(s){case 0:j=new A.ja("","","","","",0,0,"",A.b([],t.s),0,"
 p=4
 l=t.N
 s=7
-return A.S(A.a0B(A.d6("http://localhost:3000/job/search/"+a,0,null),A.ap(["Content-Type","application/json; charset=UTF-8"],l,l)),$async$xd)
+return A.S(A.a0B(A.d6("https://talent-hive-backend.vercel.app/job/search/"+a,0,null),A.ap(["Content-Type","application/json; charset=UTF-8"],l,l)),$async$xd)
 case 7:n=c
 if(n.b===200){l=n
 j=A.MN(B.Y.ik(A.fd(A.fb(l.e).c.a.i(0,"charset")).cf(l.w),null))}p=2
@@ -95198,7 +95198,7 @@ Ab(a,b,c){return this.am0(a,b,c)},
 am0(a,b,c){var s=0,r=A.N(t.H),q=1,p,o,n,m,l,k,j,i
 var $async$Ab=A.O(function(d,e){if(d===1){p=e
 s=q}while(true)switch(s){case 0:q=3
-m=A.d6("http://localhost:3000/job/apply",0,null)
+m=A.d6("https://talent-hive-backend.vercel.app/job/apply",0,null)
 l=t.N
 k=A.ap(["Content-Type","application/json; charset=UTF-8"],l,l)
 s=6
@@ -95224,7 +95224,7 @@ aqZ(a,b){var s=0,r=A.N(t.y),q,p=2,o,n,m,l,k,j,i,h
 var $async$Bu=A.O(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 A.c_("INSIDE HASAPPPLIED")
-l=A.d6("http://localhost:3000/job/hasApplied",0,null)
+l=A.d6("https://talent-hive-backend.vercel.app/job/hasApplied",0,null)
 k=t.N
 j=A.ap(["Content-Type","application/json; charset=UTF-8"],k,k)
 s=7
@@ -95281,7 +95281,7 @@ xe(a){return this.a0P(a)},
 a0P(a){var s=0,r=A.N(t.H),q=1,p,o,n,m,l,k
 var $async$xe=A.O(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
-o=A.d6("http://localhost:3000/otp/getOtp",0,null)
+o=A.d6("https://talent-hive-backend.vercel.app/otp/getOtp",0,null)
 n=t.N
 m=A.ap(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=6
@@ -95302,7 +95302,7 @@ D7(a,b,c){return this.avC(a,b,c)},
 avC(a,b,c){var s=0,r=A.N(t.H),q=1,p,o,n,m,l,k,j,i
 var $async$D7=A.O(function(d,e){if(d===1){p=e
 s=q}while(true)switch(s){case 0:q=3
-m=A.d6("http://localhost:3000/otp/verifyOtp",0,null)
+m=A.d6("https://talent-hive-backend.vercel.app/otp/verifyOtp",0,null)
 l=t.N
 k=A.ap(["Content-Type","application/json; charset=UTF-8"],l,l)
 s=6
